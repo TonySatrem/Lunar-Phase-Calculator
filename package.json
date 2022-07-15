@@ -1,0 +1,11 @@
+{
+  "name": "moonphase-calculator",
+  "version": "1.0.0",
+  "description": "short lunar phase calculator with ASCII-art of the moon",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "antonyMeow",
+  "license": "ISC"
+}
