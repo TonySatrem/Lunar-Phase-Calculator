@@ -70,7 +70,7 @@ function checkOptions (options) {
     typeof month == "number" &&
     typeof date == "number")) throw new InvalidValueError("was received NAN value"); 
       
-  if (year < 2000 || year > 2100) throw new InvalidValueError("invalid year value was received");
+  if (year < 1900 || year > 2100) throw new InvalidValueError("invalid year value was received");
   if (month < 1 || month > 12) throw new InvalidValueError("invalid month value was received");
   if (date < 1 || date > 31) throw new InvalidValueError("invalid date value was received");
 }
