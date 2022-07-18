@@ -47,12 +47,12 @@ Returns **ASCII-art** (`lunarCalc.ASCIIArts`) of specified or current lunar phas
 
 
 ```js
-lunarCalc.phases
+lunarCalc.phases;
 ```
 An Object of **lunar phases**.
 
 
 ```js
-lunarCalc.ASCII-arts
+lunarCalc.ASCII-arts;
 ```
 An object of **ASCII-arts** of lunar phases.
