@@ -11,7 +11,7 @@ const lunarCalc = require("lunarphase-calculator");
 
 ## API
 ```js
-lunarCalc.getLunarDay(Date);
+lunarCalc.getLunarDay(date);
 ```
 Returns **lunar day** of specified or current `Date Object`.
 
@@ -23,7 +23,7 @@ Returns **lunar phase** (`lunarCalc.phases`) of specified or current lunar day.
 
 
 ```js
-lunarCalc.getLunarPhaseMonth(Date);
+lunarCalc.getLunarPhaseMonth(date);
 ```
 Returns an **array** of **lunar phases** (`lunarCalc.phases`) in specified or current month.
 
