@@ -2,7 +2,7 @@ const { getLunarPhase } = require("./getLunarPhase");
 
 function getLunarPhaseMonth(date = new Date()) {
   function getDaysInMonth(year, month) {
-    return new Date(year, month, 0).getDate();
+    return 30 + (month === 2 ? (year % 4 === 0 && 1) - 2 : (month + Number(month > 7)) % 2);
   }
 
   const year = date.getUTCFullYear();
