@@ -1,4 +1,4 @@
-const { getLunarPhase } = require("./getLunarPhase");
+const { getLunarDay, getLunarPhase } = require("./getLunarPhase");
 
 function getLunarPhaseMonth(date = new Date()) {
   function getDaysInMonth(year, month) {
@@ -13,7 +13,8 @@ function getLunarPhaseMonth(date = new Date()) {
 
   for (let i = 1; i <= daysInMonth; i++) {
     const thisDate = new Date(year, month, i);
-    const phase = getLunarPhase(thisDate);
+    const lunarDay = getLunarDay(thisDate);
+    const phase = getLunarPhase(lunarDay);
     phases.push(phase);
   }
 

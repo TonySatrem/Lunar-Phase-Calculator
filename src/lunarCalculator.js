@@ -1,5 +1,6 @@
 const { getLunarDay, getLunarPhase } = require("./calculations/getLunarPhase");
 const getFullLunarPhase = require("./calculations/getFullLunarPhase");
+const getLunarPhaseMonth = require("./calculations/getlunarPhaseMonth");
 const { toJDN, fromJDN } = require("./calculations/julianDayNumber");
 const drawASCII = require("./ASCII-arts/drawASCII");
 const ASCIIArts = require("./ASCII-arts/ASCII-arts.json");
@@ -9,6 +10,7 @@ const lunarCalculator = {
   getLunarDay,
   getLunarPhase,
   getFullLunarPhase,
+  getLunarPhaseMonth,
   toJDN,
   fromJDN,
   drawASCII,
