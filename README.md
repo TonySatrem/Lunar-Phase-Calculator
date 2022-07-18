@@ -35,7 +35,7 @@ Returns **lunar phase** (`lunarCalc.phases`) with simple **ASCII-art** of phase 
 
 
 ```js
-lunarCalc.toJDN(Date, isGrigorian);
+lunarCalc.toJDN(date, isGrigorian);
 ```
 Returns **Julian Date Number (JDN)** of specified or current `Date Object`. Second parameter is boolean, default is true.
 
