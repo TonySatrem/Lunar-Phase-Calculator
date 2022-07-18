@@ -2,5 +2,5 @@
 
 To install:
 ```
-$ npm i lunar-phase-calculator -S
+$ npm i lunarphase-calculator -S
 ```
