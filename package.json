@@ -49,5 +49,8 @@
       "npm run lint:fix",
       "git add"
     ]
+  },
+  "dependencies": {
+    "lunarphase-calculator": "^1.0.1"
   }
 }

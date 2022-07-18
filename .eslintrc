@@ -10,6 +10,7 @@
     "quotes": ["error", "double"],
     "no-plusplus": "off",
     "no-param-reassign": "warn",
-    "eol-last": "warn"
+    "eol-last": "warn",
+    "linebreak-style": "warn"
   }
 }
