@@ -19,19 +19,25 @@ Returns **lunar day** of specified or current `Date Object`.
 ```js
 lunarCalc.getLunarPhase(lunarDay);
 ```
-Return **lunar phase** (`lunarCalc.phases`) of specified or current lunar day.
+Returns **lunar phase** (`lunarCalc.phases`) of specified or current lunar day.
+
+
+```js
+lunarCalc.getLunarPhaseMonth(Date);
+```
+Returns an **array** of **lunar phases** (`lunarCalc.phases`) in specified or current month.
 
 
 ```js
 lunarCalc.getFullLunarPhase(lunarDay);
 ```
-Return **lunar phase** (`lunarCalc.phases`) with simple **ASCII-art** of phase (`lunarCalc.ASCIIArts`) of specified or current lunar day.
+Returns **lunar phase** (`lunarCalc.phases`) with simple **ASCII-art** of phase (`lunarCalc.ASCIIArts`) of specified or current lunar day.
 
 
 ```js
 lunarCalc.toJDN(Date, isGrigorian);
 ```
-Return **Julian Date Number (JDN)** of specified or current `Date Object`. Second parameter is boolean, default is true.
+Returns **Julian Date Number (JDN)** of specified or current `Date Object`. Second parameter is boolean, default is true.
 
 
 ```js
