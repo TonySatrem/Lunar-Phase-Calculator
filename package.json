@@ -13,6 +13,17 @@
     "type": "git",
     "url": "git+https://github.com/antonyMeow/Moon-Phase-Calculator.git"
   },
+  "keywords": [
+    "moon",
+    "moonphase",
+    "lunar",
+    "lunarphase",
+    "astronomy",
+    "Julian Date Number",
+    "JDN",
+    "ASCII-art",
+    "calculator"
+  ],
   "author": "antonyMeow",
   "license": "ISC",
   "bugs": {
