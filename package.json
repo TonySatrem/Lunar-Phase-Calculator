@@ -1,0 +1,42 @@
+{
+  "name": "lunarphase-calculator",
+  "version": "1.0.0",
+  "description": "short lunar phase calculator",
+  "main": "./src/lunarCalculator.js",
+  "scripts": {
+    "start": "node ./src/lunarCalculator.js",
+    "serve": "nodemon ./src/lunarCalculator.js",
+    "lint": "eslint ./src",
+    "lint:fix": "eslint ./src --fix --color"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonyMeow/Moon-Phase-Calculator.git"
+  },
+  "author": "antonyMeow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antonyMeow/Moon-Phase-Calculator/issues"
+  },
+  "homepage": "https://github.com/antonyMeow/Moon-Phase-Calculator#readme",
+  "devDependencies": {
+    "eslint": "^8.20.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "nodemon": "^2.0.19",
+    "prettier": "^2.7.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "npm run lint:fix",
+      "git add"
+    ]
+  }
+}
