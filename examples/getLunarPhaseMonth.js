@@ -1,16 +1,17 @@
+/* eslint-disable no-console */
+/* eslint-disable no-restricted-syntax */
+
 const lunarCalc = require("lunarphase-calculator");
 
 const a = lunarCalc.getLunarPhaseMonth(new Date(1000, 1, 3));
 
-// eslint-disable-next-line no-restricted-syntax
 for (const val of a) {
-  // eslint-disable-next-line no-console
   console.log(lunarCalc.ASCIIArts[val]);
 }
 
 /*
   Output:
-             ####.
+           ####.
          #######..
         ########...
         ########...
